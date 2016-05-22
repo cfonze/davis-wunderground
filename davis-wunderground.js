@@ -3,6 +3,8 @@
  * personal weather station, and uploading it to Weather Underground, http://www.wunderground.com
  * 
  * See README.md for more inforation.
+ * 
+ * Copyright (c) 2016 Carlos Fonseca cfonze@gmail.com
  */
 var Davis = require('davis-weather');
 var PWS = require('wunderground-pws');
