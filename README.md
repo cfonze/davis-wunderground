@@ -28,7 +28,9 @@ The password associated with your userid/account on wunderground.com.
 
 In Linux you can use crontab to schedule the execution.  For example use the command `crontab -e` to open up the
 crontab entries and add a new entry as in the following:
-`*/1 * * * * /usr/local/n/versions/node/5.2.0/bin/node /development/davis-wunderground/davis-wunderground.js <Hostname or ipAddress> <PWS Key> <password> >> /development/davis-wunderground/cron.log 2>&1`
+```
+*/1 * * * * /usr/local/n/versions/node/5.2.0/bin/node /development/davis-wunderground/davis-wunderground.js <Hostname or ipAddress> <PWS Key> <password> >> /development/davis-wunderground/cron.log 2>&1
+```
 Substitue the `<Hostname or ipAddress>`, `<PWS Key>`, and `<password>` for your specific values.
 
 
