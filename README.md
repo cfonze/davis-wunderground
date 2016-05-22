@@ -13,7 +13,11 @@ First, clone the repository:
 
 `git clone git@github.com:cfonze/davis-wunderground.git`
 
-Then switch to the cloned repository directory and run it:
+Switch to the directory of the cloned repository and install the required modules:
+
+`npm install`
+
+Then run it:
 
 `node davis-wunderground.js <Hostname or ipAddress> <PWS Key> <password>`
 
